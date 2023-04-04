@@ -24,6 +24,7 @@ def initiate_browser():
     # option.add_argument("--user-agent={}".format(random.choice(user_agent_list)))
     option.add_argument("--start-maximized")
     option.add_argument("--ignore-certificate-errors")
+    option.add_argument('--allow-insecure-localhost')
     option.add_argument("--disable-dev-shm-usage")
     option.add_argument("--no-sandbox")
     # option.add_argument("--disable-setuid-sandbox")
